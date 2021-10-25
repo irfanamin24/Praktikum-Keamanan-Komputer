@@ -11,10 +11,6 @@
             $pesan[] = "Data Password kosong";
         }
         if (($TxtUserID=="admin") && ($TxtPassID=="admin")) {
-            $SES_USERPLG = $TxtUserID;
-            session_register("SES_USERPLG");
-            $SES_UIDPLG = $TxtPassID;
-            session_register("SES_UIDPLG");
             echo "<B>Berhasil Login.<br> Menu Admin ada disini</b>";
             exit;
         }
